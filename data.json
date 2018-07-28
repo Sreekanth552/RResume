@@ -1,9 +1,46 @@
 {
 	"details":{
-		"name":"sree",
-		"image":"image.png",
-		"phone":"9999999999",
+		"name":"sreekanth reddy",
+		"image":"3.jpg",
+		"phone":"9958963436",
 		"email":"krishnasrikanthb@gmail.com"
 
+	},
+
+"education":[
+		
+	{
+		"course":"B.tech(cse)",
+		"college":"MIC college",
+		"per":"78%"
+	},
+	{
+		"course":"Intermediate(MPC)",
+		"college":"chaitanya",
+		"per":"88%"
+	},
+	{
+		"course":"Ssc",
+		"college":"viswasanthi",
+		"per":"82%"
 	}
+
+],
+"skills":[
+{
+"title":"programming languages",
+"output":[
+"c","c++","java","python"
+]
+},
+{
+	"title":"operating systems",
+	"output":[
+		"windows","linux","mac"
+	]
+}
+],
+"carrier":{
+	"co":"Study in foreign and tie up with an organization"
+}
 }

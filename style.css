@@ -1,16 +1,56 @@
 .main{
 	width:100%;
-	background-color: olive;
+	background-color: #F08080;
 	display: flex;
+	justify-content: center;
+	text-align: center;
 }
 .left{
 	width: 30%;
-	border: 3px solid green;
+	border: 3px solid ;
+	box-shadow: 3px 3px 3px black;
+	margin: 1%;
+	padding: 1%;
+	background-color: #00BFFF;
 }
 .right{
-	width: 30%;
+	width: 50%;
 	border: 3px solid blue;
+	box-shadow: 3px 3px 3px #000000;
+	margin: 1%;
+	padding: 1%;
+	border: 7px black;
+	background-color: #F0E68C;
 }
 img{
-	width:350px;
+	width:180px;
+	border-style: double;
 }
+h1,
+h2,
+h3,{
+	font-size: 33px;
+}
+@media only screen and (min-width: 426px) and (max-width: 760px){
+	.main{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.left{
+		width: 100%
+	}
+}
+@media only screen and (min-width: 425px) and (max-width: 660px){
+	.main{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.left{
+		width: 95%
+	}
+}
+.sset table,tr,td{
+	border: 2px solid blue;
+    border-collapse: collapse;
+}
+
